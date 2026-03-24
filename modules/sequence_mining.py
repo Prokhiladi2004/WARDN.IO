@@ -1,7 +1,12 @@
+from collections import Counter
+
 import pandas as pd
 import streamlit as st
 import plotly.express as px
-from collections import Counter
+import plotly.express as px
+import pandas as pd
+import streamlit as st
+
 
 
 def mine_sequences(df: pd.DataFrame, top_n: int = 15) -> list[tuple]:

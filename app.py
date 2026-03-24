@@ -248,15 +248,15 @@ with tabs[4]:
         st.info("Please Train the model in Tab 4 first.")
 
 # --- TAB 6: SEQUENCES ---
+# --- TAB 6: SEQUENCES ---
 with tabs[5]:
     st.header("🔗 Sequence Analysis")
-    # SAFETY CHECK: Only run if feat_df actually exists and is not None
     if st.session_state.get('feat_df') is not None:
         st.write("Reviewing transaction patterns and frequencies...")
-        # Show a small preview to keep the UI fast
-        st.dataframe(st.session_state.feat_df.head(20))
+        # Call the function from your module here:
+        render_sequences(st.session_state.feat_df) 
     else:
-        st.warning("⚠️ Data not ready. Please go to **Tab 3 (Features)** and click 'Engineer Features' first.")
+        st.warning("⚠️ Data not ready. Please go to Tab 3.")
 
 # --- TAB 7: GEO ANALYSIS ---
 with tabs[6]:

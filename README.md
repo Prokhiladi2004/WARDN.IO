@@ -99,3 +99,9 @@ Built with Python, Streamlit, and a passion for financial security.
 
 ![WhatsApp Image 2026-03-24 at 10 53 45 AM](https://github.com/user-attachments/assets/7e084633-7a37-4f44-9e5b-de3430204d0f)
 
+[prompt doc.pdf](https://github.com/user-attach[Uploading FIINAL PPT.pptx…]()
+
+ments/files/26203001/prompt.doc.pdf)
+
+[architect dig.pdf](https://github.com/user-attachments/files/26203006/architect.dig.pdf)
+
